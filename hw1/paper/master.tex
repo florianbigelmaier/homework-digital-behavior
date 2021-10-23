@@ -1,0 +1,96 @@
+%Doc config
+
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage{graphicx}
+\usepackage{textcmds}
+\usepackage[left=3cm,right=3cm,top=3cm,bottom=4cm]{geometry}
+
+
+\usepackage[
+    backend=biber,
+    style=apa,
+    sortlocale=de_DE,
+    natbib=true,
+    url=false, 
+    doi=true,
+    eprint=false
+]{biblatex}
+
+
+
+
+
+
+%\addbibresource{biblio.bib}
+
+\newcommand{\fontsmall}{\fontsize{7pt}{10pt}\selectfont}
+\newcommand{\fontnormal}{\fontsize{11pt}{16pt}\selectfont}
+
+\bibliography{biblio}
+
+
+\begin{document}
+
+
+    
+
+
+
+\noindent\begin{minipage}{0.5\textwidth}
+\fontsmall
+Management Center Innsbruck \\
+Department Management, Communication \& IT  \\
+ILV Digital Behavior
+
+
+\end{minipage}%
+\hfill%
+\begin{minipage}{0.3\textwidth}\raggedleft
+\includegraphics[height=1.0cm]{mci-logo.png}
+
+\end{minipage}
+
+
+ 
+\begin{center}
+\textbf{\large Homework: Digital Behavior}\\   %Title
+Florian Bigelmaier\\                         %Name
+\end{center}
+\rule{\linewidth}{0.1mm}
+
+
+
+
+\begin{abstract}
+    \noindent
+Abstract
+\end{abstract}
+
+\subsection*{14 years of change}
+\begin{center}
+\qq{Mobile is eating the world} \autocite[][]{evans14}
+ \end{center}
+When Benedict Evans, a former analyst of the U.S. venture capital fonds Andreesen Horrowitz, formulated this statement in 2014 a revolution just had taken place in the seven years before: In 2007 the first iPhone was released and changed the way how people interact with digital systems dramatically without any question. But beneath this, the iPhone and Smartphone brought several aspects with them, that changed even the every day life for their users - i.e. a big part of the worlds population. Just to name two of them: 
+\begin{itemize}
+\item 
+The \textbf{ubiquity} of the mobile tech architecure including smartphones and the cellular access to the internet made it possible to access the internet wherever a demand could exist. This is the basis for situations like paying at the grocery store with digital payment method or navigating with the smartphone through the streets of a big city with an real time optimization for the fastest route.
+\item
+The \textbf{context sensitivity} of mobile devices differentiates them from former devices: Smartphones are not only small computers, they also come with several sensors that allow e.g. to determin the phones location (via GPS). Other players in the mobile eco system like providers of apps have the possibility to understand the context of the user by using these sensor data and generate a contextualised environment. An example for this might be the localisation of search results in the Google Maps App. When searching for a restaurant, the App will recommend restaurants that are near to the user and are open for guests at the immediate context of the user.
+\end{itemize}
+
+Beneath these new opportunities for entrepreneurs to build new businesses and the end users who profit with an increase of convenience, there is also a shady side of this development. In his essay \qq{Is Google Making Us Stupid?}, \cite[][]{carr08} provocately emphazies several artefacts of this shady side.
+
+
+
+
+
+\newpage
+
+
+
+
+
+\printbibliography 
+
+\end{document}
