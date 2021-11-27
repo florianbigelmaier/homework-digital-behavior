@@ -1,0 +1,86 @@
+%Doc config
+
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage{graphicx}
+\usepackage{textcmds}
+\usepackage[left=3cm,right=3cm,top=3cm,bottom=4cm]{geometry}
+
+
+\usepackage[
+    backend=biber,
+    style=apa,
+    sortlocale=de_DE,
+    natbib=true,
+    url=false, 
+    doi=true,
+    eprint=false
+]{biblatex}
+
+
+
+
+
+
+%\addbibresource{biblio.bib}
+
+\newcommand{\fontsmall}{\fontsize{7pt}{10pt}\selectfont}
+\newcommand{\fontnormal}{\fontsize{11pt}{16pt}\selectfont}
+\newcommand{\headline}{\fontsize{17pt}{26pt}\selectfont}
+
+\bibliography{biblio}
+
+
+\begin{document}
+
+
+   \title{Personal Reflection: Information Behavior} 
+
+
+
+\noindent\begin{minipage}{0.5\textwidth}
+\fontsmall
+Management Center Innsbruck \\
+Department Management, Communication \& IT  \\
+ILV Digital Behavior
+
+
+\end{minipage}%
+\hfill%
+\begin{minipage}{0.3\textwidth}\raggedleft
+\includegraphics[height=1.0cm]{mci-logo.png}
+
+\end{minipage}
+
+
+ 
+\begin{center}
+\textbf{Homework: Digital Behavior}\\   %Title
+Florian Bigelmaier\\                         %Name
+December, 3rd 2021\\                         %Date
+\end{center}
+\rule{\linewidth}{0.1mm}
+
+
+
+
+\headline \begin{center}
+Personal Reflection on Information Behavior
+\end{center} 
+\fontnormal 
+x
+\section*{Methodology}
+x
+
+
+
+
+\newpage
+
+
+
+
+
+\printbibliography 
+
+\end{document}
